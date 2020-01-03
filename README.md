@@ -1,10 +1,8 @@
 # local_manifests
-Local manifests for the android products I maintain
+Local manifests for the android product I work on
 
-To apply a local_manifest go to the .repo/local manifests folder within your android folder.<br/>
-Add a new empty repo: git init<br/>
-git remote add origin https://github.com/mishbieg/local_manifests.git<br/>
-git fetch origin<br/>
-git checkout -b master --track origin/master<br/>
-git checkout -b <branch> --track origin/<branch><br/>
-e.g. git checkout -b onyx/lineage-16.0 --track origin/lineage-16.0
+To apply a local_manifest:<br/>
+cd .repo within your android/lineage folder<br/>
+git clone https://github.com/mishbieg/local_manifests.git local_manifests<br/>
+cd local_manifests<br/>
+git checkout \<device\>/lineage-\<version\>, e.g. j5y17lte/lineage-16.0
