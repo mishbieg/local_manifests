@@ -6,10 +6,10 @@
     <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" />
     <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />
 
-    <project name="mishbieg/frameworks_base" path="frameworks/base" />
-    <project name="mishbieg/patcher" path="patcher" />
+    <project name="mishbieg/frameworks_base" path="frameworks/base" revision="lineage-16.0" />
+    <project name="mishbieg/patcher_device_onyx" path="patcher" revision="lineage-16.0" />
 
-    <project name="mishbieg/device_oneplus_onyx" path="device/oneplus/onyx" revision="lineage-16.0-sultan" />
+    <project name="mishbieg/device_oneplus_onyx" path="device/oneplus/onyx" revision="sultan-camera" />
     <project name="YumeMichi/kernel_oneplus_onyx" path="kernel/oneplus/onyx" revision="pie" />
-    <project name="YumeMichi/vendor_oneplus_onyx" path="vendor/oneplus/onyx" revision="pie" />
+    <project name="YumeMichi/proprietary_vendor_oneplus" path="vendor/oneplus/onyx" revision="sultan-camera" />
 </manifest>
